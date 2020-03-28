@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+<body>
+<div class="container col-md-8 col-md-offset-3 ">
+  
+    <div class="jumbotron col-sm-9 ">
+  <h2></h2>
+  <form  action="">
+    <div class="form-group">
+      <label for="G.R.No">G.R.No:</label>
+      <input type="G.R.No" class="form-control " id="G.R.No" placeholder="Enter G.R.No" name="G.R.No" required>
+    </div>
+    <div class="form-group">
+        <label for="birthday">Kami/Chalu:</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio" required>Chalu
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio" required>Kami
+      </label>
+      </div>
+    <div class="form-group">
+       <label for="Surname">Surname:</label>
+       <input type="Surname" class="form-control" id="Surname" placeholder="Enter Surname" name="Sn" required>
+    </div>
+    <div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="Name" class="form-control" id="N" placeholder="Enter Name" name="Nm" required>
+    </div>
+    <div class="form-group">
+        <label for="p">Father Name:</label>
+        <input type="Father Name" class="form-control" id="fan" placeholder="Enter Father Name" name="Fn" required>
+    </div>
+      <div>
+           <label for="Birth date">Birth date:</label>
+           <input type="date" id="Birth date" name="Bd" required>
+        </div></Br>
+  <div class="form-group">
+    <label for="Birth Place">Birth Place:</label>
+    <input type="Birth Place" class="form-control" id="Bip" placeholder="Enter Birth Place" name="Bp" required>
+  </div>
+  <div class="form-group">
+    <label for="Gender">Gender:</label>
+  <label class="radio-inline">
+    <input type="radio" name="opt" required>Male
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="opt" required>Female
+  </label>
+  </div>
+  <div class="form-group ">
+    <label for="Religion:">Religion:</label>
+    <select class="form-control" id="Religion" required>
+      <option selected disabled value="">Choose...</option>
+      <option>Hindu</option>
+      <option>Muslim</option>
+      <option>kharisti</option>
+    </select>
+    </div>
+    <div class="form-group ">
+      <label for="Category:">Category:</label>
+      <select class="form-control" id="Category" required>
+        <option selected disabled value="">Choose...</option>
+        <option>General</option>
+        <option>O.B.C</option>
+        <option>St/Sc</option>
+      </select>
+      </div>
+        <div>
+        <label for="Entry date">Entry date:</label>
+        <input type="date" id="Entry date" name="Ed" required>
+        </div><br>
+        <div class="form-group ">
+          <label for="Entry std">Entry std:</label>
+          <select class="form-control" id="Entry std" required>
+            <option selected disabled value="">Choose...</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+          </div>
+            <div class="form-group">
+                <label for="Last School">Last School:</label>
+                <input type="Last School" class="form-control" id="Bip" placeholder="Last School" name="Ls" required>
+                </div>
+                <div>
+                <label for="School leave date">School leave date:</label>
+                <input type="date" id="School leave date" name="Sld" required>
+              </div>
+              <br>
+              <div class="form-group ">
+                <label for="School leave std">School leave std:</label>
+                <select class="form-control" id="School leave std" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="School Leave reason">School leave reason:</label>
+                    <input type="School Leave reason" class="form-control" id="Slr" placeholder="School Leave reason" name="Sls" required>
+                    </div>
+                    <div class="form-group ">
+                      <label for="Religion:">Practice:</label>
+                      <select class="form-control" id="Religion" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>Saro</option>
+                        <option>Sari</option>
+                      </select>
+                      </div>
+                        <div class="form-group">
+                            <label for="Progress:">Progress:</label>
+                            <select class="form-control" id="Progress" required>
+                              <option selected disabled value="">Choose...</option>
+                                <option>best</option>
+                                <option>Medium</option>
+                                <option>Low</option>
+                            </select><br>
+                            <div class="form-group">
+                                <label for="comment">Note:</label>
+                                <textarea class="form-control" rows="3" id="comment" required></textarea>
+                              </div>
+                              <hr class="my-4">
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                              <button type="reset" class="btn btn-default">Reset</button>
+  </form>
+</div>
+</body>
+</html>
